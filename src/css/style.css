@@ -628,3 +628,167 @@ footer .dev{
 .dev img:hover{
     scale:1.1;
 }
+@media screen and (max-width:787px){
+    header{
+        width:100%;
+    }
+    nav{
+        width:100%;
+    }
+    .inicio{
+        width:100%;
+        height:100vh;
+    }
+    .inicio h1{
+        width:100%;
+        height:70%;
+        font-size:150px;
+        
+    }
+    @keyframes scroll_lateral{
+        0%{
+            
+            transform: translatey(1000px);
+        }
+        100%{
+            opacity: 100;
+            transform: translatey(-1200px);
+        }
+    }
+    .sobre .txt-sobre {
+        width:100%;
+        display: flex;
+        align-items: center;
+        align-items: center;
+        top:5%;
+        left:2%;
+
+    }
+    .txt-sobre p{
+        font-size:15px;
+    }
+    .visual-sobre i{
+        font-size:300px;
+        top:35%;
+        right:35%;
+    }
+    .skills .skill-box{
+        width:150px;
+        height:150px;
+        top:10%;
+        position:absolute;
+    }
+    .skills .skill-box:hover{
+        scale:1;
+        margin-top: 10%;
+        background: var(--bg-color5);
+    }
+    #box5{
+        right:5%;
+    }
+    .skills .skill-box:nth-child(2){
+        left:5%;
+    }
+    .skills .skill-box:nth-child(3){
+        margin-top:50%;
+        left:5%;
+    }
+    .skills .skill-box:nth-child(4){
+        right:5%;
+        margin-top:50%;
+    }
+    .skills .skill-box:nth-child(5){
+        margin-top:85%;
+    }
+    .skill-box img{
+        width:35px;
+    }
+    .servicos-li, .prestados-li{
+        width:350px;
+    }
+    .trabalhos{
+        left:0;
+    }
+    .servicos h2{
+        font-size:80px;
+    }
+    .prestados{
+        right:2%;
+        bottom:-5%;
+    }
+    .portifolio h1{
+        font-size:100px;
+    }
+    .exemplares .projetos{
+        width:200px;
+        height:200px;
+    }
+    #projeto1, #projeto5{
+        left:7%;
+    }
+    #projeto2, #projeto6{
+        right:-10%;
+    }
+    #projeto3{
+        left:7%;
+    }
+    #projeto4{
+        right:0%;
+    }
+    .exemplares .projetos:hover{
+        scale:1;
+        background-color: var(--bg-color5);
+    }
+    .contato h1{
+        font-size:100px;
+        left:18%;
+    }
+    .redes{
+        top:10%;
+    }
+    .redes img{
+        width:18px;
+        bottom:-25%;
+    }
+    .redes h3{
+        font-size:12px;
+        top: -20%;
+        right:5%;
+    }
+    .contato i{
+        display: none;
+    }
+    .fale-comigo{
+        left:12%;
+        width:80%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .fale-comigo p{
+        font-size: 15px;
+    }
+    .form-contato{
+        width:100%;
+        top: 45%;
+        left:1%;
+    }
+    .topicos h4{
+        font-size: 15px;
+    }
+    .topicos h5{
+        font-size:13px;
+    }
+    footer .dev{
+        height:70px;
+    }
+    .dev h1{
+        font-size:8px;
+    }
+    .dev h2{
+        font-size: 10px;
+    }
+    .dev img{
+        width:20px;
+    }
+}

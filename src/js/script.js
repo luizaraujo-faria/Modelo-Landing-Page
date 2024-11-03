@@ -17,5 +17,5 @@ window.onload = function(){
 //barra de navegação//
 window.addEventListener('scroll', ()=> {
     let navbar = document.querySelector('header nav')
-    navbar.classList.toggle('rolagem', window.scrollY > 800)
+    navbar.classList.toggle('rolagem', window.scrollY > 700)
 })
